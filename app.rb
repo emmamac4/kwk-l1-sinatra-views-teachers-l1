@@ -7,7 +7,7 @@ class App < Sinatra::Base
 	end
 	
 	get '/info' do
-	  "Goodnight World!"
+	  erb :info
 	end
 	
 end
